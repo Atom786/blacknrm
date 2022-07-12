@@ -1,0 +1,66 @@
+.edit{
+    background-color: #2d858b;
+    padding : 0.4rem 1.8rem;
+    font-family :calibri;
+    color: #ffffff;
+    border-radius: 1rem;
+    text-align: center;
+}
+.del{
+    background-color: #ff0202;
+    /* padding : 0.4rem 1.8rem; */
+    font-family :calibri;
+    color: #ffffff;
+    border-radius: 1rem;
+    text-align: center;
+}
+.CreUp{
+    background-color: #389d2b;
+    /* padding : 0.4rem 1.8rem; */
+    font-family :calibri;
+    color: #ffffff;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.categories{
+    max-width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px auto;
+}
+.categories form{
+    width: 290px;
+    margin-bottom: 20px;
+}
+.categories label{
+    display: block;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.categories input, button{
+    height: 35px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #555;
+}
+.categories input{
+    width: 210px;
+}
+.categories button{
+    width: 70px;
+    color: white;
+    margin-left: 10px;
+}
+.categories .row{
+    min-width: 290px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
